@@ -151,7 +151,7 @@ $all_appointments = $appts->fetchAll();
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>KASSAH Vitals Clinical | Doctor Dashboard</title>
+    <title>Ritsy Vitals Clinical | Doctor Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -191,7 +191,7 @@ $all_appointments = $appts->fetchAll();
             <div class="bg-gradient-to-br from-teal-500 to-blue-600 text-white p-2.5 rounded-xl shadow-lg">
                 <i class="fa-solid fa-user-doctor text-2xl"></i>
             </div>
-            <h1 class="text-2xl font-extrabold tracking-tight text-slate-800">KASSAH Vitals <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600">Clinical</span></h1>
+            <h1 class="text-2xl font-extrabold tracking-tight text-slate-800">Ritsy Vitals <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600">Clinical</span></h1>
         </div>
         <div class="flex items-center gap-6">
             <div class="text-right hidden md:block">

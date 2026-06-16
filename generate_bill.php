@@ -43,7 +43,7 @@ if(isset($_GET['ID'])) {
     <div class="max-w-3xl mx-auto bg-white p-10 shadow-lg rounded-sm border-t-8 border-teal-600">
         <div class="flex justify-between items-start mb-10">
             <div>
-                <h1 class="text-3xl font-bold text-gray-800">KASSAH Vitals</h1>
+                <h1 class="text-3xl font-bold text-gray-800">Ritsy Vitals</h1>
                 <p class="text-gray-500">Official Medical Invoice</p>
             </div>
             <div class="text-right">

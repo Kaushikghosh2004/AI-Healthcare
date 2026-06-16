@@ -10,24 +10,24 @@ foreach($files as $file) {
     $orig = $content;
     
     
-    $content = str_ireplace('KASSAH Vitalss', 'KASSAH Vitals', $content);
-    $content = str_ireplace('KASSAH Vitals', 'KASSAH Vitals', $content);
-    $content = str_ireplace('KASSAH Vitals', 'KASSAH Vitals', $content);
-    $content = str_ireplace('KASSAH Vitals Clinical', 'KASSAH Vitals', $content);
-    $content = str_ireplace('KASSAH Vitals', 'KASSAH Vitals', $content);
+    $content = str_ireplace('Ritsy Vitalss', 'Ritsy Vitals', $content);
+    $content = str_ireplace('Ritsy Vitals', 'Ritsy Vitals', $content);
+    $content = str_ireplace('Ritsy Vitals', 'Ritsy Vitals', $content);
+    $content = str_ireplace('Ritsy Vitals Clinical', 'Ritsy Vitals', $content);
+    $content = str_ireplace('Ritsy Vitals', 'Ritsy Vitals', $content);
     
     
-    $content = preg_replace('/KASSAH Vitals(.*?<span[^>]*>)Health/i', 'KASSAH$1Vitals', $content);
-    $content = preg_replace('/KASSAH Vitals(.*?<span[^>]*>)Clinical/i', 'KASSAH$1Vitals', $content);
-    $content = preg_replace('/KASSAH Vitals(.*?<span[^>]*>)Admin/i', 'KASSAH$1Admin', $content);
+    $content = preg_replace('/Ritsy Vitals(.*?<span[^>]*>)Health/i', 'Ritsy$1Vitals', $content);
+    $content = preg_replace('/Ritsy Vitals(.*?<span[^>]*>)Clinical/i', 'Ritsy$1Vitals', $content);
+    $content = preg_replace('/Ritsy Vitals(.*?<span[^>]*>)Admin/i', 'Ritsy$1Admin', $content);
     
     
-    $content = str_ireplace('KASSAH Vitals@KASSAH Vitals.org', 'support@kassah.org', $content);
-    $content = str_ireplace('support@KASSAH Vitals.org', 'support@kassah.org', $content);
-    $content = str_ireplace('@KASSAH Vitals.org', '@kassah.org', $content);
-    $content = str_replace('KASSAH Vitals', 'KASSAH', $content);
-    $content = str_replace('KASSAH Vitals', 'KASSAH', $content);
-    $content = str_replace('KASSAH Vitals', 'kassah', $content);
+    $content = str_ireplace('Ritsy Vitals@Ritsy Vitals.org', 'support@Ritsy.org', $content);
+    $content = str_ireplace('support@Ritsy Vitals.org', 'support@Ritsy.org', $content);
+    $content = str_ireplace('@Ritsy Vitals.org', '@Ritsy.org', $content);
+    $content = str_replace('Ritsy Vitals', 'Ritsy', $content);
+    $content = str_replace('Ritsy Vitals', 'Ritsy', $content);
+    $content = str_replace('Ritsy Vitals', 'Ritsy', $content);
     
     if($orig !== $content) {
         file_put_contents($path, $content);

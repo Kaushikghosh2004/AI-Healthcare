@@ -62,7 +62,7 @@ try { $messages = $pdo->query("SELECT * FROM contact ORDER BY id DESC")->fetchAl
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>KASSAH Vitals Admin | Command Center</title>
+    <title>Ritsy Vitals Admin | Command Center</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -158,7 +158,7 @@ try { $messages = $pdo->query("SELECT * FROM contact ORDER BY id DESC")->fetchAl
             <div class="bg-gradient-to-br from-slate-700 to-slate-900 text-white p-2.5 rounded-2xl shadow-[0_0_15px_rgba(255,255,255,0.1)] border border-white/10">
                 <i class="fa-solid fa-shield-halved text-2xl"></i>
             </div>
-            <h1 class="text-2xl font-extrabold tracking-tight text-white drop-shadow-md">KASSAH Vitals <span class="text-brand-400 font-medium">Admin</span></h1>
+            <h1 class="text-2xl font-extrabold tracking-tight text-white drop-shadow-md">Ritsy Vitals <span class="text-brand-400 font-medium">Admin</span></h1>
         </div>
         <div class="flex items-center gap-6">
             <div class="text-right hidden md:block">
@@ -602,12 +602,12 @@ try { $messages = $pdo->query("SELECT * FROM contact ORDER BY id DESC")->fetchAl
                             <i class="fa-solid fa-user-minus"></i>
                         </div>
                         <h3 class="text-2xl font-bold text-white mb-3 tracking-wide">Terminate Contract</h3>
-                        <p class="text-slate-400 text-sm mb-8 leading-relaxed">Warning: Executing this command immediately revokes the operative's access to the KASSAH Vitals mainframe.</p>
+                        <p class="text-slate-400 text-sm mb-8 leading-relaxed">Warning: Executing this command immediately revokes the operative's access to the Ritsy Vitals mainframe.</p>
                         
                         <form method="post" action="" class="space-y-6 relative z-10" onsubmit="return confirm('CRITICAL WARNING: Are you certain you wish to terminate this operative\'s system access?');">
                             <div>
                                 <label class="block text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2">Operative Network ID</label>
-                                <input type="email" name="demail" placeholder="operative@kassah.org" required class="glass-input w-full rounded-xl px-5 py-4 text-sm font-mono focus:border-rose-500 focus:shadow-[0_0_15px_rgba(244,63,94,0.3)]">
+                                <input type="email" name="demail" placeholder="operative@Ritsy.org" required class="glass-input w-full rounded-xl px-5 py-4 text-sm font-mono focus:border-rose-500 focus:shadow-[0_0_15px_rgba(244,63,94,0.3)]">
                             </div>
                             <button type="submit" name="docsub1" class="w-full bg-rose-500/10 border border-rose-500/50 text-rose-400 hover:bg-rose-500 hover:text-white font-bold py-4 rounded-xl transition duration-300 shadow-[0_0_15px_rgba(244,63,94,0.2)] hover:shadow-[0_0_25px_rgba(244,63,94,0.4)] tracking-wider uppercase text-sm">
                                 Execute Termination <i class="fa-solid fa-skull-crossbones ml-2"></i>

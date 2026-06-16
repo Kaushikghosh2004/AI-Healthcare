@@ -7,7 +7,7 @@ session_destroy();
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KASSAH Vitals | Logged Out</title>
+    <title>Ritsy Vitals | Logged Out</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -65,7 +65,7 @@ session_destroy();
 
         
         <h1 class="text-4xl font-black text-white mb-3">You've Logged Out</h1>
-        <p class="text-slate-400 text-lg mb-10 font-medium">Your session has been securely ended.<br>Thank you for using <span class="text-brand-400 font-bold">KASSAH Vitals</span>.</p>
+        <p class="text-slate-400 text-lg mb-10 font-medium">Your session has been securely ended.<br>Thank you for using <span class="text-brand-400 font-bold">Ritsy Vitals</span>.</p>
 
         
         <div class="inline-flex items-center gap-2 bg-green-500/10 border border-green-500/30 text-green-400 px-5 py-2.5 rounded-full text-sm font-semibold mb-10">
@@ -89,7 +89,7 @@ session_destroy();
 
         
         <p class="mt-16 text-slate-700 text-sm font-medium">
-            KASSAH <span class="text-slate-600">Vitals</span> &nbsp;•&nbsp; Secure Healthcare Platform
+            Ritsy <span class="text-slate-600">Vitals</span> &nbsp;•&nbsp; Secure Healthcare Platform
         </p>
     </div>
 

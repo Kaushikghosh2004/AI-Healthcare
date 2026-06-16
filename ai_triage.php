@@ -333,7 +333,7 @@ $logs = $past_logs->fetchAll();
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KASSAH Vitals | AI Health Triage</title>
+    <title>Ritsy Vitals | AI Health Triage</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -377,7 +377,7 @@ $logs = $past_logs->fetchAll();
                 <div class="bg-gradient-to-br from-brand-500 to-blue-600 text-white p-2.5 rounded-xl shadow-lg">
                     <i class="fa-solid fa-hospital text-xl"></i>
                 </div>
-                <h1 class="text-xl font-extrabold text-white">KASSAH <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-accent-500">Vitals</span></h1>
+                <h1 class="text-xl font-extrabold text-white">Ritsy <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-accent-500">Vitals</span></h1>
             </a>
             <div class="flex items-center gap-4">
                 <span class="bg-brand-500/20 text-brand-400 border border-brand-500/30 px-3 py-1 rounded-full text-xs font-bold">

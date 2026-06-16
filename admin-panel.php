@@ -120,7 +120,7 @@ if(isset($_POST['app-submit'])) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>KASSAH Vitals | Zero-G Patient Portal</title>
+    <title>Ritsy Vitals | Zero-G Patient Portal</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -235,7 +235,7 @@ if(isset($_POST['app-submit'])) {
             <div class="bg-gradient-to-br from-brand-400 to-accent-600 text-white p-2.5 rounded-2xl shadow-[0_0_20px_rgba(20,184,166,0.4)] border border-brand-400/30">
                 <i class="fa-solid fa-hospital-user text-2xl"></i>
             </div>
-            <h1 class="text-2xl font-extrabold tracking-tight text-white drop-shadow-md">KASSAH <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-accent-400">Vitals</span></h1>
+            <h1 class="text-2xl font-extrabold tracking-tight text-white drop-shadow-md">Ritsy <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-accent-400">Vitals</span></h1>
         </div>
         <div class="flex items-center gap-6">
             <div class="text-right hidden md:block">

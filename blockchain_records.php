@@ -17,7 +17,7 @@ function hashRecordData($record) {
 
 function addToBlockchain($pdo, $record_type, $record_id, $pid, $doctor, $data) {
     $last = $pdo->query("SELECT block_index, block_hash FROM blockchain_ledger ORDER BY block_index DESC LIMIT 1")->fetch();
-    $prev_hash = $last ? $last['block_hash'] : hash('sha256', 'KASSAH_VITALS_GENESIS_BLOCK');
+    $prev_hash = $last ? $last['block_hash'] : hash('sha256', 'Ritsy_VITALS_GENESIS_BLOCK');
     $next_index = $last ? ($last['block_index'] + 1) : 1;
     $timestamp = date('Y-m-d H:i:s');
 
@@ -78,7 +78,7 @@ $chain = $chain_q->fetchAll();
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KASSAH Vitals | Blockchain Medical Records</title>
+    <title>Ritsy Vitals | Blockchain Medical Records</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -101,7 +101,7 @@ $chain = $chain_q->fetchAll();
                 <div class="bg-gradient-to-br from-brand-500 to-blue-600 text-white p-2.5 rounded-xl">
                     <i class="fa-solid fa-hospital text-xl"></i>
                 </div>
-                <h1 class="text-xl font-extrabold text-white">KASSAH <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-accent-500">Vitals</span></h1>
+                <h1 class="text-xl font-extrabold text-white">Ritsy <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-accent-500">Vitals</span></h1>
             </a>
             <div class="flex items-center gap-4">
                 <span class="bg-highlight-500/20 text-purple-300 border border-highlight-500/30 px-3 py-1 rounded-full text-xs font-bold">

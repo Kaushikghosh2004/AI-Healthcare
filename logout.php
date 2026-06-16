@@ -22,7 +22,7 @@ session_destroy();
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>KASSAH Vitals | Secure Logout</title>
+    <title>Ritsy Vitals | Secure Logout</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -50,7 +50,7 @@ session_destroy();
         </div>
 
         <h2 class="text-2xl font-extrabold text-slate-800 mb-2">Securely Logged Out</h2>
-        <p class="text-slate-500 font-medium mb-8">Thank you for using the KASSAH Vitals system. Your session has been safely closed.</p>
+        <p class="text-slate-500 font-medium mb-8">Thank you for using the Ritsy Vitals system. Your session has been safely closed.</p>
 
         <a href="index1.php" class="block w-full bg-slate-800 hover:bg-brand-600 text-white font-bold py-3.5 px-4 rounded-xl transition duration-300 shadow-md">
             Return to Login

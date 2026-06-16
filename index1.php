@@ -6,7 +6,7 @@ include("header.php");
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>KASSAH Vitals | Patient Login</title>
+    <title>Ritsy Vitals | Patient Login</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
     
@@ -60,7 +60,7 @@ include("header.php");
             <div class="inline-flex items-center justify-center bg-gradient-to-br from-brand-500 to-blue-600 text-white w-16 h-16 rounded-2xl shadow-lg shadow-brand-500/30 mb-4">
                 <i class="fa-solid fa-hospital-user text-3xl"></i>
             </div>
-            <h1 class="text-3xl font-extrabold tracking-tight text-white">KASSAH <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-accent-500">Vitals</span></h1>
+            <h1 class="text-3xl font-extrabold tracking-tight text-white">Ritsy <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-accent-500">Vitals</span></h1>
             <p class="text-slate-400 font-medium mt-2">Secure Patient Portal</p>
         </div>
 

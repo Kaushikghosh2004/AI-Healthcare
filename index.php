@@ -6,7 +6,7 @@ include("header.php");
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>KASSAH Vitals | Advanced Healthcare</title>
+    <title>Ritsy Vitals | Advanced Healthcare</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
     
@@ -95,7 +95,7 @@ include("header.php");
                 <div class="bg-dark-800 text-neon-cyan p-2.5 rounded-xl border border-neon-cyan shadow-glow-cyan group-hover:shadow-glow-cyan-lg transition duration-300">
                     <i class="fa-solid fa-hospital text-xl"></i>
                 </div>
-                <h1 class="text-2xl font-extrabold tracking-tight text-white drop-shadow-neon-cyan">KASSAH <span class="text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan to-neon-purple">Vitals</span></h1>
+                <h1 class="text-2xl font-extrabold tracking-tight text-white drop-shadow-neon-cyan">Ritsy <span class="text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan to-neon-purple">Vitals</span></h1>
             </div>
             <div class="hidden md:flex items-center gap-8">
                 <a href="#home" class="text-neon-cyan font-bold hover:text-white hover:drop-shadow-neon-cyan transition">Home</a>
@@ -269,7 +269,7 @@ include("header.php");
         <div class="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-neon-cyan to-transparent opacity-50"></div>
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
-                <h3 class="text-white font-black text-lg mb-4 drop-shadow-neon-cyan tracking-widest uppercase">KASSAH <span class="text-neon-cyan">Vitals</span></h3>
+                <h3 class="text-white font-black text-lg mb-4 drop-shadow-neon-cyan tracking-widest uppercase">Ritsy <span class="text-neon-cyan">Vitals</span></h3>
                 <p class="text-sm leading-relaxed">Providing cybernetically enhanced medical facilities and top-tier healthcare operatives to ensure your ultimate survival.</p>
             </div>
             <div>
@@ -286,12 +286,12 @@ include("header.php");
                 <ul class="space-y-3 text-sm font-mono">
                     <li class="flex items-center"><i class="fa-solid fa-location-crosshairs text-neon-cyan mr-3 text-lg"></i> Sector: Kolkata, WB, IN</li>
                     <li class="flex items-center"><i class="fa-solid fa-satellite-dish text-neon-pink mr-3 text-lg"></i> Freq: +91 70031 23456</li>
-                    <li class="flex items-center"><i class="fa-solid fa-envelope-open-text text-neon-purple mr-3 text-lg"></i> Node: support@kassah.org</li>
+                    <li class="flex items-center"><i class="fa-solid fa-envelope-open-text text-neon-purple mr-3 text-lg"></i> Node: support@Ritsy.org</li>
                 </ul>
             </div>
         </div>
         <div class="text-center pt-8 border-t border-slate-800 text-xs font-mono uppercase tracking-widest text-slate-600">
-            &copy; <?= date('Y') ?> KASSAH Vitals Megacorp. All network rights reserved.
+            &copy; <?= date('Y') ?> Ritsy Vitals Megacorp. All network rights reserved.
         </div>
     </footer>
 
