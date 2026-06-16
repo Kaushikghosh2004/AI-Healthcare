@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>KASSAH Vitals | About & Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+                    colors: { 
+                        brand: { 50: '#f0fdfa', 100: '#ccfbf1', 200: '#99f6e4', 500: '#14b8a6', 600: '#0d9488', 900: '#134e4a' },
+                        accent: { 500: '#3b82f6', 600: '#2563eb' },
+                        highlight: { 500: '#8b5cf6', 600: '#7c3aed' }
+                    },
+                    animation: { 'blob': 'blob 7s infinite', 'fade-in-up': 'fadeInUp 0.8s ease-out forwards' },
+                    keyframes: {
+                        blob: {
+                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                            '100%': { transform: 'translate(0px, 0px) scale(1)' }
+                        },
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="w-full font-sans text-slate-300 antialiased relative bg-slate-950 overflow-x-hidden">
+
+    <div class="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
+        <div class="absolute top-[-10%] left-[10%] w-[500px] h-[500px] bg-brand-500/30 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
+        <div class="absolute top-[20%] right-[5%] w-[400px] h-[400px] bg-accent-500/30 rounded-full mix-blend-multiply filter blur-3xl animate-blob" style="animation-delay: 2s;"></div>
+        <div class="absolute bottom-[-10%] left-[40%] w-[600px] h-[600px] bg-highlight-500/30 rounded-full mix-blend-multiply filter blur-3xl animate-blob" style="animation-delay: 4s;"></div>
+    </div>
+
+    <nav class="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-lg border-b border-slate-800/50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.php" class="flex items-center gap-3 cursor-pointer">
+                <div class="bg-gradient-to-br from-brand-500 to-blue-600 text-white p-2.5 rounded-xl shadow-lg shadow-brand-500/30">
+                    <i class="fa-solid fa-hospital text-xl"></i>
+                </div>
+                <h1 class="text-2xl font-extrabold tracking-tight text-white">KASSAH <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-accent-500">Vitals</span></h1>
+            </a>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="index.php" class="text-slate-400 font-bold hover:text-brand-500 transition">Home</a>
+                <a href="services.html" class="text-brand-500 font-bold hover:text-brand-400 transition">About Us</a>
+                <a href="contact.html" class="text-slate-400 font-bold hover:text-brand-500 transition">Contact</a>
+                <a href="index.php#portals" class="bg-white/10 text-white border border-white/20 px-5 py-2.5 rounded-xl font-bold hover:bg-white/20 transition shadow-md">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-40 pb-20 px-6 max-w-7xl mx-auto animate-fade-in-up">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <div class="inline-block bg-brand-500/10 border border-brand-500/30 text-brand-400 px-4 py-1.5 rounded-full text-sm font-bold mb-6">
+                    ABOUT KASSAH VITALS
+                </div>
+                <h2 class="text-4xl md:text-5xl font-black text-white mb-6 leading-tight">
+                    Provide best quality healthcare for you
+                </h2>
+                <p class="text-slate-400 text-lg mb-8 leading-relaxed">
+                    We Have The Best Doctors In Town. Our Hospital Is Equipped With The Latest Technology And Equipment.
+                </p>
+                <ul class="space-y-4 mb-8">
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-square-check text-brand-500 text-2xl mr-4"></i>
+                        <div>
+                            <strong class="block text-white">Affordable monthly premium packages</strong>
+                            <span class="text-slate-400">Affordable monthly premium packages</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-square-check text-brand-500 text-2xl mr-4"></i>
+                        <div>
+                            <strong class="block text-white">Choose your favourite services</strong>
+                            <span class="text-slate-400">Choose the service you want at an affordable price</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-square-check text-brand-500 text-2xl mr-4"></i>
+                        <div>
+                            <strong class="block text-white">Friendly environment</strong>
+                            <span class="text-slate-400">Friendly staff and specialized doctors</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:w-1/2">
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-gradient-to-r from-brand-500 to-accent-500 rounded-3xl opacity-20 blur-xl"></div>
+                    <img src="https://images.unsplash.com/photo-1551076805-e18690c5e561?auto=format&fit=crop&w=800&q=80" alt="Doctors" class="relative rounded-3xl shadow-2xl border border-slate-700/50 w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-slate-900/40 border-y border-slate-800/50 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div class="text-center p-6 bg-slate-900/60 rounded-3xl border border-slate-800 hover:border-brand-500/50 transition duration-300">
+                <i class="fa-solid fa-calendar-check fa-3x text-brand-500 mb-4"></i>
+                <h4 class="text-xl font-bold text-white mb-2">Make an appointment</h4>
+                <p class="text-slate-400 text-sm">Get an appointment with our doctors and get the best treatment.</p>
+            </div>
+            <div class="text-center p-6 bg-slate-900/60 rounded-3xl border border-slate-800 hover:border-accent-500/50 transition duration-300">
+                <i class="fa-solid fa-box-open fa-3x text-accent-500 mb-4"></i>
+                <h4 class="text-xl font-bold text-white mb-2">Choose your package</h4>
+                <p class="text-slate-400 text-sm">Our package is designed to meet your needs perfectly.</p>
+            </div>
+            <div class="text-center p-6 bg-slate-900/60 rounded-3xl border border-slate-800 hover:border-highlight-500/50 transition duration-300">
+                <i class="fa-solid fa-user-md fa-3x text-highlight-500 mb-4"></i>
+                <h4 class="text-xl font-bold text-white mb-2">Help by specialist</h4>
+                <p class="text-slate-400 text-sm">Get Help by best specialist in the world.</p>
+            </div>
+            <div class="text-center p-6 bg-slate-900/60 rounded-3xl border border-slate-800 hover:border-blue-400/50 transition duration-300">
+                <i class="fa-solid fa-file-medical fa-3x text-blue-400 mb-4"></i>
+                <h4 class="text-xl font-bold text-white mb-2">Get diagnostic report</h4>
+                <p class="text-slate-400 text-sm">Best diagnostic report will be provided to you instantly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-4">Comprehensive Care</h2>
+            <p class="text-slate-400 font-medium max-w-2xl mx-auto">Providing a holistic approach to healthcare with our state-of-the-art facilities.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-slate-900/60 p-8 rounded-3xl shadow-sm border border-slate-800 hover:shadow-2xl hover:shadow-brand-500/10 transition duration-300 backdrop-blur-sm flex items-start gap-4">
+                <div class="w-14 h-14 bg-brand-500/20 text-brand-400 rounded-2xl flex items-center justify-center text-2xl shrink-0"><i class="fa-solid fa-stethoscope"></i></div>
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-2">Medical checkup</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Best Medical Checkup at the Best Price available.</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 p-8 rounded-3xl shadow-sm border border-slate-800 hover:shadow-2xl hover:shadow-brand-500/10 transition duration-300 backdrop-blur-sm flex items-start gap-4">
+                <div class="w-14 h-14 bg-accent-500/20 text-accent-400 rounded-2xl flex items-center justify-center text-2xl shrink-0"><i class="fa-solid fa-wheelchair"></i></div>
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-2">Nursing Services</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Highly trained and compassionate nursing staff.</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 p-8 rounded-3xl shadow-sm border border-slate-800 hover:shadow-2xl hover:shadow-brand-500/10 transition duration-300 backdrop-blur-sm flex items-start gap-4">
+                <div class="w-14 h-14 bg-green-500/20 text-green-400 rounded-2xl flex items-center justify-center text-2xl shrink-0"><i class="fa-solid fa-pills"></i></div>
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-2">Pharmacy</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">We provide the best Discounts in our in-house pharmacy.</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 p-8 rounded-3xl shadow-sm border border-slate-800 hover:shadow-2xl hover:shadow-brand-500/10 transition duration-300 backdrop-blur-sm flex items-start gap-4">
+                <div class="w-14 h-14 bg-pink-500/20 text-pink-400 rounded-2xl flex items-center justify-center text-2xl shrink-0"><i class="fa-solid fa-baby"></i></div>
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-2">Gyn Care</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">We Provide the best Gynecology facilities and natal care.</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 p-8 rounded-3xl shadow-sm border border-slate-800 hover:shadow-2xl hover:shadow-brand-500/10 transition duration-300 backdrop-blur-sm flex items-start gap-4">
+                <div class="w-14 h-14 bg-purple-500/20 text-purple-400 rounded-2xl flex items-center justify-center text-2xl shrink-0"><i class="fa-solid fa-brain"></i></div>
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-2">Neurology</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">We provide the best neurology services with advanced tech.</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 p-8 rounded-3xl shadow-sm border border-slate-800 hover:shadow-2xl hover:shadow-brand-500/10 transition duration-300 backdrop-blur-sm flex items-start gap-4">
+                <div class="w-14 h-14 bg-blue-500/20 text-blue-400 rounded-2xl flex items-center justify-center text-2xl shrink-0"><i class="fa-solid fa-bed"></i></div>
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-2">Sleep Center</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">We provide the best sleep center services and analysis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

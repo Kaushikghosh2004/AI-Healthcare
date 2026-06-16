@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>KASSAH Vitals | Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+                    colors: { 
+                        brand: { 50: '#f0fdfa', 100: '#ccfbf1', 200: '#99f6e4', 500: '#14b8a6', 600: '#0d9488', 900: '#134e4a' },
+                        accent: { 500: '#3b82f6', 600: '#2563eb' },
+                        highlight: { 500: '#8b5cf6', 600: '#7c3aed' }
+                    },
+                    animation: { 'blob': 'blob 7s infinite' },
+                    keyframes: {
+                        blob: {
+                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                            '100%': { transform: 'translate(0px, 0px) scale(1)' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen w-full font-sans text-slate-300 antialiased relative flex flex-col items-center justify-center bg-slate-950 py-24 px-4 overflow-x-hidden">
+    <div class="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
+        <div class="absolute top-[-10%] left-[20%] w-96 h-96 bg-brand-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
+        <div class="absolute top-[20%] right-[10%] w-96 h-96 bg-accent-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob" style="animation-delay: 2s;"></div>
+        <div class="absolute bottom-[-20%] left-[30%] w-96 h-96 bg-highlight-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob" style="animation-delay: 4s;"></div>
+    </div>
+
+    <nav class="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-lg border-b border-slate-800/50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.php" class="flex items-center gap-3 cursor-pointer">
+                <div class="bg-gradient-to-br from-brand-500 to-blue-600 text-white p-2.5 rounded-xl shadow-lg shadow-brand-500/30">
+                    <i class="fa-solid fa-hospital text-xl"></i>
+                </div>
+                <h1 class="text-2xl font-extrabold tracking-tight text-white">KASSAH <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-accent-500">Vitals</span></h1>
+            </a>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="index.php" class="text-slate-400 font-bold hover:text-brand-500 transition">Home</a>
+                <a href="services.html" class="text-slate-400 font-bold hover:text-brand-500 transition">About Us</a>
+                <a href="contact.html" class="text-brand-500 font-bold hover:text-brand-400 transition">Contact</a>
+                <a href="index.php#portals" class="bg-white/10 text-white border border-white/20 px-5 py-2.5 rounded-xl font-bold hover:bg-white/20 transition shadow-md">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="w-full max-w-4xl mt-12 relative z-10">
+        <div class="bg-slate-900/60 backdrop-blur-2xl p-8 md:p-12 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.5)] border border-slate-700/50">
+            <div class="text-center mb-10">
+                <div class="inline-flex items-center justify-center bg-brand-500/20 text-brand-400 w-20 h-20 rounded-full mb-6">
+                    <i class="fa-solid fa-paper-plane text-3xl"></i>
+                </div>
+                <h2 class="text-4xl font-extrabold text-white">Drop Us a Message</h2>
+                <p class="text-slate-400 mt-4 text-lg font-medium">We'd love to hear from you. Send us your queries!</p>
+            </div>
+
+            <form method="post" action="contact.php" class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-slate-400 text-sm font-bold mb-2">Your Name *</label>
+                        <div class="relative">
+                            <i class="fa-regular fa-user absolute left-4 top-4 text-slate-500"></i>
+                            <input type="text" name="txtName" placeholder="John Doe" required 
+                                class="w-full pl-12 pr-4 py-3.5 bg-slate-800/80 border border-slate-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500 transition">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-slate-400 text-sm font-bold mb-2">Your Email *</label>
+                        <div class="relative">
+                            <i class="fa-regular fa-envelope absolute left-4 top-4 text-slate-500"></i>
+                            <input type="email" name="txtEmail" placeholder="name@example.com" required 
+                                class="w-full pl-12 pr-4 py-3.5 bg-slate-800/80 border border-slate-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500 transition">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-slate-400 text-sm font-bold mb-2">Phone Number *</label>
+                    <div class="relative">
+                        <i class="fa-solid fa-phone absolute left-4 top-4 text-slate-500"></i>
+                        <input type="tel" name="txtPhone" placeholder="10-digit number" minlength="10" maxlength="10" required 
+                            class="w-full pl-12 pr-4 py-3.5 bg-slate-800/80 border border-slate-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500 transition">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-slate-400 text-sm font-bold mb-2">Your Message *</label>
+                    <textarea name="txtMsg" placeholder="How can we help you?" required rows="5"
+                        class="w-full p-4 bg-slate-800/80 border border-slate-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500 transition"></textarea>
+                </div>
+
+                <div class="pt-4">
+                    <button type="submit" name="btnSubmit" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold py-4 rounded-xl transition duration-300 shadow-lg shadow-brand-500/20 flex justify-center items-center gap-2 group">
+                        Send Message <i class="fa-solid fa-paper-plane group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
